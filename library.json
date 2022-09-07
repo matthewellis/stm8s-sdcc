@@ -1,0 +1,21 @@
+{
+    "name": "stm8s-sdc",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "hhttps://github.com/matthewellis/stm8s-sdcc"
+    },
+    "authors": {
+        "name": "Georg Icking-Konert",
+        "email": "icking@onlinehome.de",
+        "url": "https://github.com/gicking"
+    },
+    "license": "MIT",
+    "platforms": "ststm8",
+    "frameworks": "*",
+    "build": {
+        "flags": [
+            "-I inc/"
+        ]
+    }
+}
